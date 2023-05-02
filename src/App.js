@@ -7,6 +7,7 @@ import ViewMessage from "./pages/ViewMessage";
 import ViewTags from "./pages/ViewTags";
 import Profile from "./pages/Profile";
 import ViewComment from "./pages/ViewComment";
+import NotFound from "./pages/NotFound";
 function App() {
   const [userid, setUserid] = useState(null);
   const [uname, setUserName] = useState(null);
@@ -97,7 +98,8 @@ function App() {
             path="/register"
             element={<Register setUser={setUser} />}
           />
-          <Route
+         {userid !== null && (
+          <><Route
             exact
             path="/"
             element={<Home userid={userid} uname={uname} />}
@@ -124,7 +126,10 @@ function App() {
             element={<Profile userid={userid} uname={uname} />}
           ></Route>
           <Route exact path="/logout" element={<Login />}></Route>
-          {/* <Route exact path='/*' element={< NotFound/>}></Route> */}
+         
+          </> 
+         )}
+          <Route exact path='/*' element={<NotFound/>}></Route>
         </Routes>
       </Router>
     </>

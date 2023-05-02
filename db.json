@@ -1,0 +1,111 @@
+{
+  "postCommentMapping": [
+    {
+      "postid": 1,
+      "userid": 3,
+      "comment": "really beautiful",
+      "date": "2023-05-01T17:58:26.300Z",
+      "id": 1
+    }
+  ],
+  "postTagMapping": [
+    {
+      "fromUserid": 3,
+      "postid": 5,
+      "toUserid": 1,
+      "x": 134,
+      "y": 126,
+      "id": 1
+    }
+  ],
+  "postShareMapping": [
+    {
+      "fromUserid": 3,
+      "postid": 3,
+      "toUserid": 1,
+      "date": "2023-05-01T17:58:10.715Z",
+      "id": 1
+    }
+  ],
+  "userFollowerMapping": [
+    {
+      "userid": 3,
+      "followerid": 2,
+      "date": "2023-05-01T17:56:10.796Z",
+      "id": 1
+    },
+    {
+      "userid": 3,
+      "followerid": 1,
+      "date": "2023-05-01T17:56:17.364Z",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "name": "shijo",
+      "email": "shijo@gmail.com",
+      "username": "shijo",
+      "date": "2023-05-01T14:24:36.075Z",
+      "photo": "rose",
+      "password": "$2a$05$2MJqfoHmrgMKc5W6o6qqquWFzjGzXNhe5bN.hGCEGOmindPad6zVa",
+      "id": 1
+    },
+    {
+      "name": "joy",
+      "email": "joy@gmail.com",
+      "username": "joy",
+      "date": "2023-05-01T14:27:22.385Z",
+      "photo": "rose",
+      "password": "$2a$05$AXfrXrcuzWWpCnA2OylOn.8X5u3/JVn1ZwFCh2qXA6WyGQYD4HS5K",
+      "id": 2
+    },
+    {
+      "name": "jaicy",
+      "email": "jaicyshijo@gmail.com",
+      "username": "jaicy",
+      "date": "2023-05-01T17:55:41.047Z",
+      "photo": "rose",
+      "password": "$2a$05$QMAasvW5Ql5SBMF/CpvKUOHUEAiAqkey.96HbyIVd/03uPmpuqiIG",
+      "id": 3
+    }
+  ],
+  "postLikeMapping": [],
+  "posts": [
+    {
+      "newpost": "Natures beauty",
+      "userid": 1,
+      "date": "2023-05-01T14:25:07.137Z",
+      "filename": "sun",
+      "id": 1
+    },
+    {
+      "newpost": "drawinggsssssssss",
+      "userid": 1,
+      "date": "2023-05-01T14:26:29.288Z",
+      "filename": "tree",
+      "id": 2
+    },
+    {
+      "newpost": "my dream place....",
+      "userid": 2,
+      "date": "2023-05-01T14:27:56.288Z",
+      "filename": "nature",
+      "id": 3
+    },
+    {
+      "newpost": "good morning all",
+      "userid": 3,
+      "date": "2023-05-01T17:57:01.824Z",
+      "filename": "cat",
+      "id": 4
+    },
+    {
+      "newpost": "tagging shijo",
+      "userid": 3,
+      "date": "2023-05-01T17:57:19.919Z",
+      "filename": "beach",
+      "id": 5
+    }
+  ]
+}
